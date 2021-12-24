@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "array-buffer-to-hex": "^1.0.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^3.3.0",
+    "cryptojs": "^2.5.3",
+    "eccrypto": "^1.1.1",
+    "ethereumjs-tx": "^2.1.1",
+    "hex-to-array-buffer": "^1.1.0",
+    "ipfs": "^0.36.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.6.3",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^4.0.3",
+    "react-timeago": "^4.4.0",
+    "truffle": "^5.3.7",
+    "tweetnacl": "^1.0.1",
+    "tweetnacl-util": "^0.15.0",
+    "uuid": "^3.3.2",
+    "web3": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
